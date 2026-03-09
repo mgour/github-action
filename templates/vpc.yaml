@@ -4,5 +4,5 @@ Description: Simple VPC
 Resources:
   MyVPC:
     Type: AWS::EC2::VPC
-    Propeies:
+    Properties:
       CidrBlock: 10.0.0./24
